@@ -47,18 +47,40 @@ h1 {
     text-align: center;
 }
 .picture-container{
-    padding: 8px;
+    padding: 40px;
     border-radius: 8px;
 }
-.image-travel{
+
+.image-content{
+    width: 350px;
+    margin: 16px;
+   
+}
+.greece{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50;
+    flex-direction: row;
+}
+.image{
+    height: 261px;
+    width: 275px;
+}
+.dominican{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.thailand{
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0;
     flex-direction: row;
-
-}
-.image-content{
-    width: 250px;
-    margin: 16px;
 }
