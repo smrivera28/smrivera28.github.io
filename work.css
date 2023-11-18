@@ -1,6 +1,6 @@
 .picture-container{
-    padding: 8px;
-    border-radius: 8px;
+    padding: 80%;
+    border-radius: 80%;
 }
 .image-travel{
     display: flex;
@@ -11,25 +11,25 @@
 
 }
 .image-content{
-    width: 375px;
-    margin: 70px;
+    width: 375%;
+    margin: 70%;
 }
 .work-content{
     margin:auto;
-    width: 50%;
+    width: 80%;
 }
-section{
-    padding-top: 60px;
-    font-size: large;
+.work-content section{
+    padding-top: 10%;
+    font-size: 175%;
     font-style: italic;
+
 }
 h2 {
     color: #d8b124;
-    font-family: small;
-    font-weight: bold;
     padding-left: 2%;
-    font-size: 1.8rem;
+    font-size: 2.75rem;
     font-style: italic;
+    padding-top: 1%;
 }h1 {
     color: #d8b124;
     text-align: center;
@@ -37,19 +37,17 @@ h2 {
 }
 h3 {
     color: #d8b124;
-    font-family: small;
     font-weight: bold;
     padding-left: 2%;
-    font-size: 1.8rem;
+    font-size: 2.75rem;
     font-style: italic;
-    padding-top: 10%;
+    padding-top: 1%;
 }
 h4 {
     color: #d8b124;
-    font-family: small;
     font-weight: bold;
     padding-left: 2%;
-    font-size: 1.8rem;
+    font-size: 2.75rem;
     font-style: italic;
-    padding-top: 10%;
+    padding-top: 1%;
 }

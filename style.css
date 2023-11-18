@@ -4,43 +4,44 @@
     margin: 0;
     box-shadow: border;
 }
-
 h1 {
     font-size: 7.5rem;
     font-family: 'Lobster', sans-serif;
-    color: #ecd272
+    color: white
     
-
 }
-
 h2 {
     font-size: 2.5rem;
     font-style: italic;
-    color: #739395;
     padding-left: 7%;
     padding-right:7%;
-    padding: 2%;
-}
-
-h3 {
-    font-size: 1.8rem;
-    font-style: italic;
-    color: #739395;
-    padding-left:2%;
     padding-top: 2%;
-
 }
-
+h3 {
+    font-size: 1.7rem;
+    font-style: italic;
+    color: #d8b124;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+h5 {
+    font-size: 1.7rem;
+    font-style: italic;
+    color: #d8b124;
+    padding-left: 2%;
+    padding-top: 5%;
+}
 .site-heading {
-    background-color:#659DBD;
+    background-image: url("assets/Lake\ Tahoe\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-decoration: none;
-    padding: 50px 0;
-    font-size: 1.5rem;
-    color: #eae6bf;
+    font-size: 3rem;
+    color: wheat;
 }
-
 .site-heading nav {
-    margin-top: 30px;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
 }
@@ -48,61 +49,92 @@ h3 {
     text-decoration: none;
     color: inherit;
 }
-.inline-block{
+.inline-block {
     display: inline-block;
 }
+/* {
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .photo{
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 70%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 8%;
+    border-radius: 80%;
 }
 .email{
     text-align: center;
 }
 .picture-container{
-    padding: 50px;
+    padding: 10%;
     border-radius: 8px;
 }
-
 .image-content{
-    width: 350px;
-    margin: 16px;
-   
+    width: 100%;
+    margin: 16px;  
+}
+.image-row{
+    display: flex;
+    justify-content: space-around;
+}
+.image-row img{
+    max-width: 25%;
 }
 .greece{
-    
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin: 0;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .image{
-    height: 261px;
+    height: 275px;
     width: 275px;
 }
+p{
+    text-align: center;
+}
 .dominican{
-    
     display: flex;
     justify-content: space-evenly;
+    width: 25%;
     margin: 0;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .thailand{
-   
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0;
+    width: 25%;
+    margin: 0%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .travel-heading{
     text-align: center;
+    color: white;
+}
+.text-center{
+    text-align:center;
+}
+
+.travel-content {
+    text-align: center;
+}
+
+.destination {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 36px 0;
+}
+
+.destination img {
+    max-width: 330px;
 }
